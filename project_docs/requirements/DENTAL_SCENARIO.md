@@ -22,3 +22,38 @@
     <li>Teléfono</li>
     <li>Dirección</li>
 </ol>
+
+<p align="justify">
+    Estos elementos permitirán conformar un banco de datos con la información básica del paciente, 
+    lo que facilitara el acceso a ellos cuando algún médico lo requiera o cuando sea necesario programar alguna consulta, 
+    sin tener la necesidad de registrar nuevamente sus datos. Quien lleva la aprobación de los datos de los pacientes es la secretaria: 
+    ella es la responsable de canalizarlos la primera vez, ya que, una vez aprobados en el sistema, ellos tendrán la posibilidad de programar sus propias citas. 
+
+    La agenda deberá contener citas y consultas: las citas podrán solicitarse por los pacientes y su duración es de 30 minutos, 
+    manejando un horario de 10:00 a 13:00 hrs, mientras que las consultas únicamente las podrán agendar los médicos, y están tendrán una duración de una hora, 
+    dentro de un horario de 15:00 a 19:00 hrs. La consulta durara dependiendo de la complejidad del trabajo. 
+
+    Los pacientes podrán programar sus citas vía internet y con ello ahorrar tiempo en cada visita. El sistema tendrá diferentes sesiones con distintos privilegios, 
+    una para los médicos, otra para el administrador y una mas para los pacientes, de modo que se puedan autentificar por medio de un usuario y una contraseña.
+    Los servicios que se brindaran en el Hospital Dental son:
+</p>
+
+<ol>
+    <li>Limpieza Dental</li>
+    <li>Colocacion y Cambio de Amalgama</li>
+    <li>Colocacion y Cambio de Resina</li>
+    <li>Extraccion de Piezas Dentales</li>
+</ol>
+
+<p align="justify">
+    La agenda debe evitar errores en el registro de las citas y consultas, por ejemplo: programar a la misma hora y en la misma fecha, y permitir citas los domingos. 
+    La secretaria (administrador del sistema) podrá registrar, editar, borrar y consultas los datos de los médicos, los cuales deben tener un usuario, contraseña, nombre, apellidos y especialidad.
+
+    Los médicos consultarán su agenda por fecha determinada, las citas y consultas que tengan asignadas cada uno de los pacientes, así como la hora previamente programada. 
+    Un requisito es que cada uno de los usuarios deben autentificarse en el sistema para tener acceso. 
+
+    La interfaz gráfica del sistema web debe ser fácil de usar, amigable y funcional para el usuario. 
+
+    Como prioridad, los datos de los pacientes deben ser confidenciales, ya que es una política del hospital, por lo que se requieren implementar algún mecanismo de seguridad, 
+    en este caso utilizaremos la autentificación de los usuarios.
+</p>
